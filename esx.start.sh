@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVICENAME="node-esx"
+SERVICENAME="control-esx"
 
 # launch & persist
 docker rm -v $(docker ps -qa -f name="${SERVICENAME}" -f status=exited) 2>/dev/null
